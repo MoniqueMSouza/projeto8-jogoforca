@@ -1,4 +1,9 @@
 function Jogo() {
+
+function iniciarJogo(){
+    alert('linkou!')
+}
+
     return (
         <div class="pagInteira">
             <div class="tela">
@@ -7,7 +12,7 @@ function Jogo() {
                 </div>
                 <div class="ladoDireito">
                     <div class="botao">
-                        <button class="escolherPalavra">Escolher Palavra</button>
+                        <button onClick={iniciarJogo}class="escolherPalavra">Escolher Palavra</button>
                     </div>
                     <div class="chute">
                         <span> _ _ _ _ _ _ _ _ _ _ _ _</span>

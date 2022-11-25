@@ -1,21 +1,25 @@
-.pagInteira{
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.pagInteira {
     Width: 100%;
     Height: auto;
     display: flex;
     justify-content: center;
 }
+
 .tela {
     display: flex;
     Width: 1025px;
-    Height: 839px;
-    background-color: #27AE60;
+    Height: 526px;
 }
 
 .ladoEsquerdo {
     Width: 400px;
     Height: 470px;
-    background-color: red;
 }
+
 .forca {
     width: 400px;
     height: 466.67px;
@@ -27,19 +31,22 @@
     align-items: flex-end;
     Height: 470px;
     width: 100%;
-    background-color: aqua;
     position: relative;
 }
-.botao{
-  position: absolute;
-  top: 15px;
-    background-color: red;
+
+.botao {
+    position: absolute;
+    top: 15px;
+
+
 }
+
 .chute {
     font-size: 50px;
     position: absolute;
     bottom: 15px;
-    background-color: blue;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 
 .escolherPalavra {
@@ -53,3 +60,57 @@
     font-weight: 700px;
 }
 
+.teclado {
+    width: 664px;
+    height: 162px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.teclaDesativada {
+    width: 40px;
+    height: 40px;
+    margin-right: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #798A9F;
+    border: 1px solid #7AA7C7;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #9FAAB5;
+    font-weight: 700;
+}
+
+.base {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.jaSeiApalavra {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.input {
+    Width: 353px;
+    Height: 40px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    margin-left: 12px;
+}
+
+.chutar {
+    Width: 100px;
+    Height: 40px;
+    background-color: #E1ECF4;
+    border: 1px solid #7AA7C7;
+    border-radius: 3px;
+    color: #3C76A1;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 15px;
+}
