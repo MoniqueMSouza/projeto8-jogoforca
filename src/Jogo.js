@@ -1,20 +1,20 @@
-function Jogo() {
+function Jogo({setHabilitar}) {
 
-function iniciarJogo(){
-    alert('linkou!')
+function iniciarJogo(){    
+    setHabilitar(false) 
 }
 
     return (
-        <div class="pagInteira">
-            <div class="tela">
-                <div class="ladoEsquerdo">
-                    <img class="forca" src="assets/forca0.png" />
+        <div className="pagInteira">
+            <div className="tela">
+                <div className="ladoEsquerdo">
+                    <img className="forca" src="assets/forca0.png"/>
                 </div>
-                <div class="ladoDireito">
-                    <div class="botao">
-                        <button onClick={iniciarJogo}class="escolherPalavra">Escolher Palavra</button>
+                <div className="ladoDireito">
+                    <div className="botao">
+                        <button onClick={iniciarJogo} className="escolherPalavra">Escolher Palavra</button>
                     </div>
-                    <div class="chute">
+                    <div className="chute">
                         <span> _ _ _ _ _ _ _ _ _ _ _ _</span>
                     </div>
                 </div>
