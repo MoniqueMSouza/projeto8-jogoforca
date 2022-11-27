@@ -2,7 +2,7 @@ import React from "react"
 import Jogo from "./Jogo"
 import Letras from "./Letras"
 import Chute from "./Chute"
-//import palavras from "./palavras"
+import palavras from "./palavras"
 
 function App() {
   const [habilitar, setHabilitar] = React.useState(true)
@@ -11,6 +11,7 @@ function App() {
     <>
     <Jogo
     setHabilitar={setHabilitar}
+    palavras={palavras}
     ></Jogo>
     <Letras
     setHabilitar={setHabilitar}
